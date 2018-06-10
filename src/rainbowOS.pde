@@ -7,5 +7,5 @@ void setup() {
 	OSBackground = loadImage("https://www.publicdomainpictures.net/pictures/120000/velka/rainbow-colors-background.jpg");
 }
 void draw() {
-  image(OSBackground, width / 2 * -1, height / 2 * -1);
+  image(OSBackground, 0, 0, width, height);
 }
